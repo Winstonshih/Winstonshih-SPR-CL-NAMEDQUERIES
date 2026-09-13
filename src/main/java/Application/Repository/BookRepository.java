@@ -81,7 +81,7 @@ public interface BookRepository extends JpaRepository<Book, Long> {
     /**
      * TODO: Retrieve books by their availability using the field "available" in the class Book. The return type will be List<Book>.
      */
-    List<Book> findBooksByAvailability(boolean availability);
+    List<Book> findBooksByAvailability(boolean availabl);
     /**
      * TODO: Retrieve books by their dateAdded OR their lastDateWithdrawn.
      */
